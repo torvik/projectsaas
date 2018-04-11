@@ -12,9 +12,10 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 
 gem 'coffee-rails', '~> 4.2'
-gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
+gem 'devise'
+gem 'milia', github: 'jekuno/milia', branch: 'issue#76'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -33,3 +34,5 @@ group :production do
   gem 'rails_12factor'
 end 
 
+
+gem 'activerecord-session_store', github: 'rails/activerecord-session_store'
