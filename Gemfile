@@ -36,3 +36,8 @@ end
 
 
 gem 'activerecord-session_store', github: 'rails/activerecord-session_store'
+
+
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views'
+
