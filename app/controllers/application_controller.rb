@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
   rescue_from ::Milia::Control::InvalidTenantAccess, :with => :invalid_tenant
 
   
-  before_action :authenticate_tenant!
+ 
 
 
 end
