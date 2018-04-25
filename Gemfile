@@ -44,3 +44,4 @@ gem 'devise-bootstrap-views'
  gem 'bootstrap-sass'
  gem 'jquery-rails'
 
+gem 'bootstrap-datepicker-rails'
